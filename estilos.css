@@ -1,0 +1,34 @@
+/* Estilo para el carrusel*/
+
+#carouselAuto {
+    max-width: auto; /* Establece el ancho máximo del carrusel */
+    margin: 0 ; /* Centra el carrusel horizontalmente dentro del contenedor */
+}
+
+#logo {
+    max-width: 90px; /* Establece el ancho máximo del carrusel */
+    margin: -1 ; /* Centra el carrusel horizontalmente dentro del contenedor */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Asegura que las imágenes dentro de los elementos del carrusel se ajusten correctamente */
+    height: auto; /* Permite que la altura de las imágenes se ajuste automáticamente para mantener la proporción */
+}
+
+/* Estilo a nivel de etiqueta HTML*/
+body {
+    background-color: #ffffff;
+}
+/* Estilo a nivel de id*/
+#tituloprincipal {
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding: 0%;
+    border-radius: 0px;
+}
+/* Estilo a nivel de clase*/
+.resultado {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
