@@ -1,34 +1,126 @@
-/* Estilo para el carrusel*/
-
+/* Estilo para el carrusel */
 #carouselAuto {
-    max-width: auto; /* Establece el ancho máximo del carrusel */
-    margin: 0 ; /* Centra el carrusel horizontalmente dentro del contenedor */
+    max-width: auto;  
+    margin: 0;  
 }
-
-#logo {
-    max-width: 90px; /* Establece el ancho máximo del carrusel */
-    margin: -1 ; /* Centra el carrusel horizontalmente dentro del contenedor */
-}
-
+  
 .carousel-item img {
-    max-width: 100%; /* Asegura que las imágenes dentro de los elementos del carrusel se ajusten correctamente */
-    height: auto; /* Permite que la altura de las imágenes se ajuste automáticamente para mantener la proporción */
+    max-width: 100%;
+    height: auto;
+    padding: 0;
 }
 
-/* Estilo a nivel de etiqueta HTML*/
+/* Estilo a nivel de etiqueta HTML */
 body {
-    background-color: #ffffff;
+    background-color: #000000;
+    height: 100%;
 }
-/* Estilo a nivel de id*/
+
+/* Estilos para el header y título*/
 #tituloprincipal {
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
     background-color: #ffffff;
-    padding: 0%;
-    border-radius: 0px;
+    margin-top: 0px ;
+    padding-top: 100px;
+    padding-left: 60px;
+    border-color: #000;
+    color:#000000;
+    margin-left: 0;  
 }
-/* Estilo a nivel de clase*/
+
+/* Estilos para el logo */
+#logo {
+    max-width: 90px;  
+    margin-right: 20px;  
+}
+
+
+/* Estilos para el navbar */
+.navbar-custom {
+color: #000;
+position: fixed;
+  top: 0;
+  width: 100%;
+  padding-right: 1 px;
+  padding-left: 1 px;
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con opacidad */
+  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+}
+
+#navbartodo {
+    color:#000;
+}
+
+#dropm1 {
+    color:#000;  
+}
+
+#dropm2 {
+    color:#000;
+
+}
+
+/*Estilo card*/
+
+#contacto {
+    background-color: #ffffff;
+    color: #000;
+}
+/* Estilo a nivel de clase */
 .resultado {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     font-weight: bold;
     padding: 10px;
+}
+
+/* Estilo del contenedor de las columnas*/ 
+.column-container {
+    background-color: #000000;
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom: none; 
+    margin-left: none;
+    margin-right: none; 
+    color: #ffffff;
+    padding-bottom: 20px; 
+    padding-right: 20px; 
+    padding-top: 20px; 
+}
+
+
+  #columnasinfo{
+    background-color: #000;
+    color: #ffffff;
+  }
+
+  #imagenr {
+    padding: 10px;
+    margin-top: 40px; 
+  }
+
+
+  /*Estilo del botón de la card*/
+
+  #botonenviar {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #202020;
+  }
+
+  #search {
+    background-color: #ffffff;
+    color: #000;
+}
+
+/*Estilo footer*/
+
+#footer {
+    background-color: #000000;
+    margin-top: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    color: #ffffff;
+    padding: 36;
+  }
